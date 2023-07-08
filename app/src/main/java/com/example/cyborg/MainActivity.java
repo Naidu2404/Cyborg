@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
+        System.out.println("Clicked");
         answer_a.setBackgroundColor(Color.WHITE);
         answer_b.setBackgroundColor(Color.WHITE);
         answer_c.setBackgroundColor(Color.WHITE);
